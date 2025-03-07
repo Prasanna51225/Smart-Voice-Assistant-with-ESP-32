@@ -15,11 +15,11 @@ Voice-controlled system using ESP32, Android (Kotlin), and Python. Converts spee
 
 
 ##  Project Structure  
-ESP32-Voice-Control-System/ │── 📁 Android_App/ # Kotlin app for speech-to-text conversion
-│── 📁 ESP32_Code/ # ESP32 Wi-Fi communication & serial transmission
-│── 📁 Python_Scripts/ # Python script for command execution in VS Code
-│── 📁 Docs/ # Circuit diagrams, flowcharts, and setup guides
-│── 📁 Assets/ #demo videos
+ESP32-Voice-Control-System/ │──  Android_App/ # Kotlin app for speech-to-text conversion
+│── ESP32_Code/ # ESP32 Wi-Fi communication & serial transmission
+│──  Python_Scripts/ # Python script for command execution in VS Code
+│──  Docs/ # Circuit diagrams, flowcharts, and setup guides
+│──  Assets/ #demo videos
 │── README.md # Project documentation
 
 
@@ -44,19 +44,19 @@ ESP32-Voice-Control-System/ │── 📁 Android_App/ # Kotlin app for speech-
   pip install pyserial
 
 ## How It Works
-1️) User speaks a command in the Android app (e.g., "Open YouTube").
-2️) The app converts speech to text and sends it to ESP32 via Wi-Fi.
-3️) ESP32 receives the command and transmits it to the laptop via a serial connection.
-4️) Python script on the laptop reads the command and executes the corresponding system task.
+- 1️) User speaks a command in the Android app (e.g., "Open YouTube").
+- 2️) The app converts speech to text and sends it to ESP32 via Wi-Fi.
+- 3️) ESP32 receives the command and transmits it to the laptop via a serial connection.
+- 4️) Python script on the laptop reads the command and executes the corresponding system task.
 
 ## WORK-FLOW:
 
 
 
 Future Enhancements
-> Integrate AI (ChatGPT/GPT-4) for smart responses
-> Expand to home automation (control lights, fans, IoT devices)
-> Enable voice authentication for security
+- > Integrate AI (ChatGPT/GPT-4) for smart responses
+- > Expand to home automation (control lights, fans, IoT devices)
+- > Enable voice authentication for security
 
 
 
