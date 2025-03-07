@@ -53,6 +53,7 @@ ESP32-Voice-Control-System/ │──  Android_App/ # Kotlin app for speech-to-t
 
 
 
+
 Future Enhancements
 - > Integrate AI (ChatGPT/GPT-4) for smart responses
 - > Expand to home automation (control lights, fans, IoT devices)
