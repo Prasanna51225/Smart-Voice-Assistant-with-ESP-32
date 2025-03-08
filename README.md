@@ -8,6 +8,7 @@ Voice-controlled system using ESP32, Android (Kotlin), and Python. Converts spee
 **Expandable for AI, IoT, and home automation**  
 
 
+
 ##  Technologies Used  
 - **Android (Kotlin, Kotlin DSL)** → Speech-to-text conversion & Wi-Fi communication  
 - **ESP32 (Arduino/PlatformIO)** → Handles Wi-Fi & serial transmission  
