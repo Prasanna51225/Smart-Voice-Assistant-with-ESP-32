@@ -50,7 +50,39 @@ ESP32-Voice-Control-System/ │──  Android_App/ # Kotlin app for speech-to-t
 - 4️) Python script on the laptop reads the command and executes the corresponding system task.
 
 ## WORK-FLOW:
+### Esp32 code-output terminal
+![WhatsApp Image 2025-03-08 at 16 26 47_4d3e3fa8](https://github.com/user-attachments/assets/c675fe30-3bba-4d93-aa4a-d725a9ae68e4)
+### python script-output terminal
+![WhatsApp Image 2025-03-08 at 16 26 46_8144f356](https://github.com/user-attachments/assets/59a580fd-08db-4fdf-b38b-c1d818b20d8d)
+### Android App UI
+![WhatsApp Image 2025-03-08 at 16 27 26_df9e7922](https://github.com/user-attachments/assets/ff7a1bbf-6296-49aa-ae77-cbaf13f69bc1)
+- (use your esp32 ip address)
 
+
+# Voice-Controlled Assistant for ESP32
+
+This project is a voice-controlled assistant that can execute various commands through a Flask API. Below are the supported commands:
+
+##  System Commands:
+- *"Open Notepad"* — Opens Notepad on your computer  
+- *"Open Calendar"* — Opens your system’s calendar  
+- *"Open PowerPoint"* — Opens PowerPoint with a blank slide  
+
+##  Web Commands:
+- *"Open YouTube"* — Opens YouTube in your browser  
+- *"Open Google"* — Opens Google in your browser  
+- *"Open My Amrita"* — Opens the My Amrita website  
+
+##  Alarm Command:
+- *"Set alarm at HH:MM"* — Sets an alarm at the specified time (24-hour format)  
+
+##  Media Commands:
+- *"Open Camera"* — Captures a photo using your webcam  
+- *"Take Screenshot"* — Takes a screenshot and saves it  
+- *"Record Video"* — Records a 5-second video using your webcam  
+
+##  YouTube Search:
+- *"Play [song/term] on YouTube"* — Opens YouTube and searches for the term you mentioned  
 
 
 
@@ -58,6 +90,7 @@ Future Enhancements
 - > Integrate AI (ChatGPT/GPT-4) for smart responses
 - > Expand to home automation (control lights, fans, IoT devices)
 - > Enable voice authentication for security
+
 
 
 
